@@ -6,30 +6,25 @@
 	box-sizing: border-box;
 }
 
-ul,
-ol {
+html {
+	font-size: 62.5%;
+}
+
+ul {
 	list-style: none;
 }
 
-img,
-picture {
-	max-width: 100%;
+img {
 	display: block;
+	max-width: 100%;
 }
 
-input,
-button,
-textarea,
-select {
+button {
 	font: inherit;
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
 	font-family: 'Inter', sans-serif;
 	font-weight: 600;
 	color: #fff;
@@ -37,31 +32,7 @@ h6 {
 }
 
 h2 {
-	font-size: 1.7em;
-}
-
-h3 {
-	font-size: 1.55em;
-}
-
-h4 {
-	font-size: 1.4em;
-}
-
-h5 {
-	font-size: 1.25em;
-}
-
-h6 {
-	font-size: 1.1em;
-}
-
-p {
-	font-size: 1em;
-}
-
-strong {
-	font-weight: 700;
+	font-size: 2.4rem;
 }
 
 body {
@@ -72,16 +43,10 @@ body {
 	font-family: 'Inter', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeSpeed;
-	font-size: 0.875em;
+	font-size: 1.4rem;
 	font-weight: 400;
 	color: #fff;
 	line-height: 1.4;
-}
-
-ul,
-ol {
-	margin: 0;
-	padding: 0;
 }
 
 /* ========================= */
@@ -93,8 +58,8 @@ ol {
 	justify-content: center;
 	align-items: center;
 	padding: 0;
-	background-color: rgba(0, 0, 0, 0);
-	border: 1px solid rgba(0, 0, 0, 0);
+	background-color: transparent;
+	border: 1px solid transparent;
 	color: inherit;
 	text-decoration: none;
 	text-align: center;
@@ -103,7 +68,7 @@ ol {
 }
 
 .btn--primary {
-	padding: 0.8571428571em;
+	padding: 1.2rem;
 	background-color: #333;
 	border-color: #333;
 	border-radius: 8px;
@@ -142,7 +107,7 @@ ol {
 }
 
 .container {
-	padding: 0 1.5em;
+	padding: 0 2.4em;
 }
 
 /******************/
@@ -176,29 +141,29 @@ main > .container {
 }
 
 .card {
-	gap: 1.7142857143em;
+	gap: 2.4rem;
 	width: 100%;
-	max-width: 23.5714285714em;
-	padding: 1.7142857143em;
+	max-width: 33rem;
+	padding: 2.4rem;
 	background-color: #1f1f1f;
-	margin: 2.8571428571em 0 4.2857142857em;
+	margin: 4rem 0 6rem;
 	border-radius: 12px;
 }
 
 .card__head {
 	align-items: center;
-	gap: 1.7142857143em;
+	gap: 2.4rem;
 	text-align: center;
 }
 
 .card__image img {
-	width: 5.7142857143em;
+	width: 8rem;
 	height: auto;
 	border-radius: 50%;
 }
 
 .card__title-wrap {
-	gap: 0.4285714286em;
+	gap: 0.6rem;
 }
 
 .card__subtitle {
@@ -207,13 +172,13 @@ main > .container {
 }
 
 .card__links {
-	gap: 1.1428571429em;
+	gap: 1.6rem;
 }
 
 @media (min-width: 48em) {
 	.card {
-		max-width: 25.2857142857em;
-		padding: 2.5714285714em;
+		max-width: 35.4rem;
+		padding: 3.6rem;
 	}
 }
 
@@ -231,8 +196,8 @@ footer {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	padding: 1em 0;
-	font-size: 0.8em;
+	padding: 1.2rem 0;
+	font-size: 1.2rem;
 	text-align: center;
 }
 
