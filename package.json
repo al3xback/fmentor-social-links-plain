@@ -3,14 +3,6 @@
 	"private": true,
 	"version": "1.0.0",
 	"type": "module",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/al3xback/fmentor-social-links-plain.git"
-	},
 	"author": "alex <al3xback@gmail.com>",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/al3xback/fmentor-social-links-plain/issues"
-	},
-	"homepage": "https://github.com/al3xback/fmentor-social-links-plain#readme"
+	"license": "ISC"
 }
